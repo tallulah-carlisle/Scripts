@@ -1,4 +1,3 @@
-# boto3 - library providing the low-level functionality shared between the Python SDK and the AWS CLI
 import boto3
 import os
 # Boto Connection
