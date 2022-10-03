@@ -1,0 +1,15 @@
+# Create a new AWS Route53 Record Set using AWS cli to validate requested certificate
+# Usage:
+# 
+
+{
+            "Comment": "CREATE DNS Validation CNAME record",
+            "Changes": [{
+            "Action": "CREATE",
+                        "ResourceRecordSet": {
+                                    "Name": "_eb6d515c4bdd3c4d2e17979dea934f5a.dea.cloudnative.nttdatauk.cloud",
+                                    "Type": "CNAME",
+                                    "TTL": 300,
+                                 "ResourceRecords": [{ "Value": "_246acffbe0fe72dd87fbb0c86c69322c.njdczhxdjc.acm-validations.aws."}]
+}}]
+}
