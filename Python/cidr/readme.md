@@ -5,9 +5,9 @@ This Python script will update the kubernetes annotation "alb.ingress.kubernetes
 ## Prerequisites
 
 You will need to have install:
-    - python 3
-    - pip3 
-    - pyyaml
+- python 3
+- pip3 
+- pyyaml
 
 ## Usage
 
